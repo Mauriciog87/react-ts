@@ -1,5 +1,6 @@
 import { Counter } from './components/Counter';
 import { ParentTimer } from './components/ParentTimer';
+import { ReducerCounter } from './components/ReducerCounter';
 import { User } from './components/User';
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
       <h2>useEffect - useRef</h2>
       <hr />
       <ParentTimer />
+      <h2>useReducer</h2>
+      <hr />
+      <ReducerCounter />
     </div>
   );
 }
